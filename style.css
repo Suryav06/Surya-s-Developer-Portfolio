@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    color:white;
+    
+}
+body{
+    width: 100%;
+    height:100vh;
+    background-color: rgb(0, 0, 0);
+}
+nav ul li {
+    color:white;
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:rgb(87, 75, 161);  
+   
+    
+}
+.left{
+    color:white;
+    font-size: 1.7rem;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px ;
+    background-color:rgb(12, 11, 11);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+.firstsec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 55px 0;
+
+}
+.firstsec > div{
+    width:30%;
+}
+.leftsec{
+  font-size: 2.8rem;
+}
+.leftsec .buttons{
+    padding: 45px 0;
+}
+.leftsec .btn{
+   padding: 12px;
+   background-color: rgb(87, 75, 161);
+   border: 1px solid white;
+   border-radius: 6px;
+   font-size: 15px;
+   cursor: pointer;
+}
+.leftsec .btn:hover{
+    background-color: black;
+}
+
+.rightsec img{
+    width: 100%;
+    margin: 50px;
+   
+}
+.purple{
+    color:rgb(87, 75, 161);
+}
+#element{
+    color: rgb(87, 75, 161);
+}
+.secondsec{
+    max-width:80vw;
+    margin:auto;
+    height: 85vh;
+
+}
+main hr{
+    border:0;
+    background:rgb(87, 75, 161);
+    height:1.2px;
+    margin:45px 70px;
+
+}
+.gray{
+    color: gray;
+}
+.secondsec .box{
+    display: flex;
+    background: white;
+    width: 80vw;
+    height:2px;
+    margin:50px 0;
+    
+}
+.secondsec .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin:0 100px;
+
+}
+.img-top{
+    width:28px;
+    position: relative;
+    top: -32px;
+    left:-9px;
+}
+
+.vertical-text {
+    position: relative;
+    top:75px;
+    width:150px;
+    font-size: 14px;
+
+}
+.vertical-desc{
+    position: relative;
+    top:86px;
+    color: gray;
+    width:150px;
+    font-size:12px;
+}
+footer{
+    background-color:rgb(12, 11, 11);
+    padding: 30px 70px;
+}
+.footer{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+hr{
+    border:0;
+    background:rgb(87, 75, 161);
+    height:1.2px;
+    margin:0px 70px;
+
+}
+.footer ul{
+    list-style: none;
+}
+.footer>div{
+     width:223px;
+}
+footer .footer-rights{
+ text-align: center;
+ color: gray;
+ padding: 30px 0;
+
+}
